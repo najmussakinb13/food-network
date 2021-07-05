@@ -1,0 +1,64 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.orange-color{
+    color: orange;
+}
+.top{
+    display: flex;
+    margin: 5%;
+}
+h1{
+    font-size: 50px;
+    color: gray;
+}
+h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+p{
+    color: gray;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 50%;
+}
+.button{
+   text-decoration: none;
+   background-image: linear-gradient(orange,tomato);
+   color: white;
+   font-size: 20px;
+   padding: 3%;
+   border-radius: 55px;
+   box-shadow: 5px 5px 10px tomato;
+}
+.button-about{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 50px;
+   
+}
+.bg-img {
+    background-image: url(images/appi.jpg);
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .about-me {
+    text-align: left;
+    padding-left: 54%;
+    padding-top: 14%;
+    padding-right: 15%;
+    
+    
+    
+  }
+  
