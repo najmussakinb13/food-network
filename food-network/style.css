@@ -3,11 +3,14 @@ body{
     
 }
 .orange-color{
-    color: orange;
+    color: rgb(255, 94, 0);
 }
 .top{
     display: flex;
     margin: 5%;
+}
+.flx{
+    display: flex;
 }
 h1{
     font-size: 50px;
@@ -35,15 +38,6 @@ p{
    border-radius: 55px;
    box-shadow: 5px 5px 10px tomato;
 }
-.button-about{
-    text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
-    color: white;
-    font-size: 20px;
-    padding: 1%;
-    border-radius: 50px;
-   
-}
 .bg-img {
     background-image: url(images/appi.jpg);
     height: 650px;
@@ -57,8 +51,30 @@ p{
     padding-left: 54%;
     padding-top: 14%;
     padding-right: 15%;
-    
-    
-    
   }
+  .my-recipies{
+      text-align: center;
+  }
+  .group{
+      width: 25%;
+      margin-left: 3.5%;
+      margin-right: 4%;
+      padding-left: 1%;
+      border-radius: 8%;
+      box-shadow: 10px 10px 50px gray;
+  }
+  .img1{
+      height: 245px;
+      width: 315px;
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-left: -50px;
+  }
+
+  footer{
+    background-color: black;
+    text-align: center;
+    padding: 60px 450px 60px 450px ;
+ }
+
   
